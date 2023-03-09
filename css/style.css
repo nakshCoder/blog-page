@@ -1,0 +1,267 @@
+body {
+  margin: 50px 0px 0px 50px;
+  font-family: sans-serif;
+}
+
+/* header section */
+
+.header-image {
+  width: 200px;
+}
+
+.header-heading {
+  margin-bottom: 10px;
+}
+
+.header-heading a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+.header-heading a:hover {
+  color: #dc6520;
+}
+
+.header-bio {
+  color: #3c5349;
+  font-size: 0.9rem;
+}
+
+.header-bio {
+  margin: 0px 0px 30px 0px;
+}
+
+.header-img img {
+  width: 97%;
+}
+
+/* main section */
+
+/* article section */
+
+.section-article {
+  display: inline-block;
+  width: 66%;
+  text-align: justify;
+  font-family: serif;
+  line-height: 1.6rem;
+}
+
+.article-heading {
+  font-size: 2.9rem;
+}
+
+.views img {
+  width: 15px;
+}
+
+.views-count {
+  font-weight: bold;
+  margin-left: 2px;
+  font-size: 0.9rem;
+}
+
+/* Author sections */
+
+.author-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+}
+
+.author-container img {
+  border-radius: 50%;
+}
+.author-container p {
+  margin: 0%;
+  line-height: 2rem;
+  font-size: 0.9rem;
+}
+
+.author-container p a {
+  text-decoration: none;
+  color: #3c5349bd;
+}
+
+.author-container p a:hover {
+  color: #dc6520;
+}
+
+/* article unordered list */
+.article-ul-list li a {
+  text-decoration: none;
+  color: blueviolet;
+}
+.article-ul-list li a:hover {
+  color: #dc6520;
+}
+
+/* main section */
+
+main {
+  display: inline-block;
+  width: 72%;
+}
+
+/* aside section */
+
+aside {
+  width: 21%;
+  text-align: justify;
+  display: inline-block;
+  vertical-align: top;
+  margin: 120px 0px 0px 0px;
+}
+
+.line {
+  height: 0.2rem;
+  width: 100%;
+  background-color: #000000;
+}
+
+aside h3 {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.aside-form {
+  line-height: 2rem;
+}
+
+.aside-form label {
+  font-size: 1.1rem;
+  color: #3c5349;
+  font-family: serif;
+}
+
+.aside-form input {
+  background-color: #f7f7f7;
+  border: 1px solid #3c53495c;
+  padding: 5px 3px;
+  width: 90%;
+  border-radius: 2px;
+  font-size: 1rem;
+}
+
+.aside-form button {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 23px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 20px;
+}
+
+.aside-form button:hover {
+  background-color: #dc6520;
+}
+
+/* search box */
+
+.search-box-container {
+  margin: 50px 0px 10px 0px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  margin-top: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #3c53495c;
+  padding: 5px 3px;
+  width: 90%;
+  border-radius: 2px;
+  font-size: 1rem;
+}
+
+.search-box i {
+  position: absolute;
+  top: 20px;
+  right: 19px;
+  cursor: pointer;
+  color: #f7f7f7;
+  background-color: #000000;
+  padding: 7px;
+  border-radius: 2px;
+}
+
+aside li a {
+  color: #dc6520;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-family: serif;
+  text-decoration: none;
+}
+
+aside li :hover {
+  color: #3c5349;
+}
+
+/* social media icons */
+
+.social-media-icons {
+  display: inline-block;
+  position: fixed;
+  top: 253px;
+  left: 0%;
+}
+
+.social-media-icons i {
+  text-align: center;
+  padding: 11px;
+  color: #fff;
+}
+
+.social-media-icons .fa-facebook {
+  padding: 20px;
+  background-color: #3b5998;
+}
+
+.social-media-icons .fa-facebook:hover {
+  background-color: #2d4373;
+}
+
+.social-media-icons .fa-linkedin {
+  background-color: #0077b5;
+  padding: 17.8px;
+}
+
+.social-media-icons .fa-linkedin:hover {
+  background-color: #00121c;
+}
+.social-media-icons .fa-twitter {
+  background-color: #83c3f3;
+  padding: 17.4px;
+}
+
+.social-media-icons .fa-twitter:hover {
+  background-color: #55acee;
+}
+.social-media-icons .fa-google-plus {
+  background-color: #dd4b39;
+  padding: 14.5px;
+}
+
+.social-media-icons .fa-google-plus:hover {
+  background-color: #c23321;
+}
+.social-media-icons .fa-whatsapp {
+  background-color: #6ba92f;
+  padding: 17.7px;
+}
+
+.social-media-icons .fa-whatsapp:hover {
+  background-color: #528124;
+}
+
+.social-media-icons .fa-envelope {
+  background-color: #ed4926;
+  padding: 16.6px;
+}
+
+.social-media-icons .fa-envelope:hover {
+  background-color: #cf3311;
+}
